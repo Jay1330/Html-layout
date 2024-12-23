@@ -1,0 +1,153 @@
+/*EJERCICIO 1*/
+.titulo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.personajes {
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitle {
+    background: dimgrey;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*EJERCICIO 2*/
+
+.e2 {
+    display: flex;
+    place-items: center;
+    background-color: aqua;
+    resize: both;
+    overflow: auto;
+    display: grid;
+}
+
+.e2 div{
+    background-color: blanchedalmond;
+}
+/*EJERCICIO 3*/
+
+.e3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    resize: both;
+    overflow: auto;
+    display: flex;
+    background-color: aqua;
+}
+
+.e3 div{
+    margin: 5px;
+    flex: 0 1 150px;
+    background-color: blanchedalmond;
+}
+/*EJERCICIO 4*/
+
+.e4 {
+    resize: both;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: minmax(150px, 25%) 1fr;
+
+}
+
+.e4-1{
+    background-color: yellow;
+}
+
+.e4-2 {
+    background-color: deeppink;
+}
+
+/*EJERCICIO 5*/
+
+.e5 {
+    resize: both;
+    overflow: auto;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+.e5-1{
+    background-color:aqua;
+}
+.e5-2{
+    background-color: burlywood;
+}
+.e5-3{
+    background-color: antiquewhite;
+}
+
+/*EJERCICIO 6*/
+.e6{
+    display: grid;
+    resize: both;
+    overflow: auto;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: auto 1fr auto;
+    
+}
+.e6-1{
+    background-color:darkmagenta;
+    grid-column: 1 / 4;
+}
+.e6-2{
+    background-color: aqua;
+}
+.e6-3{
+    background-color: burlywood;
+}
+.e6-4{
+    background-color: bisque;
+}
+.e6-5{
+    background-color: darkseagreen;
+    grid-column: 1 / 4;
+}
+/*EJERCICIO 7*/
+.e7{
+    display: grid;
+    resize: both;
+    overflow: auto;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+.e7-1{
+    background-color: darkmagenta;
+}
+.e7-2{
+    background-color: aqua;
+}
+.e7-3{
+    background-color: burlywood;
+}
+.e7-4{
+    background-color: antiquewhite;
+}
+
+/*EJERCICIO 8*/
+.e8{
+    resize: both;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    padding: 1em;
+    border: 1px solid black;
+}
+.e8-1{
+    background-color: darkmagenta;
+}
+.e8-2{
+    background-color: aqua;
+}
+.e8-3{
+    background-color: burlywood;
+}
+.e8-4{
+    background-color: antiquewhite;
+}
